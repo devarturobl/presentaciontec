@@ -920,7 +920,8 @@
 
     /* ==========================================================================
        RESPONSIVE DESIGN (Móviles y Tablets)
-       ========================================================================== */@media (max-width: 900px) {
+       ========================================================================== */
+    @media (max-width: 900px) {
       header {
         padding: 0.8rem 1.2rem;
       }
@@ -955,28 +956,6 @@
         padding: 0.8rem 0.9rem;
         font-size: 0.85rem;
       }
-      /* Adjustments for Slide 5: El Gestor Empresarial */
-      .slide#slide-5 .grid-3 {
-        grid-template-columns: 1fr !important;
-        gap: 0.8rem !important;
-      }
-      .slide#slide-5 .ted-card {
-        padding: 1.2rem !important;
-        margin: 0.5rem auto !important;
-      }
-      .slide#slide-5 .ted-card h3 {
-        font-size: 1.1rem !important;
-      }
-      .slide#slide-5 .ted-card p {
-        font-size: 0.85rem !important;
-      }
-      .slide#slide-5 .callout-box {
-        margin: 1rem auto !important;
-        padding: 1rem !important;
-      }
-      .slide#slide-5 blockquote {
-        font-size: 1rem !important;
-      }
     }
 
   </style>
@@ -1001,33 +980,52 @@
 
     <div class="header-center" id="activeTopicBadge">
       <span class="live-dot"></span>
-      <span id="headerTopicText">00. Portada e Introducción</span>
+      <span id="headerTopicText">00. Bienvenida</span>
     </div>
 
     <div class="header-right">
       <div class="slide-counter" id="counter">
-        <span id="currentSlideNum">01</span> / <span id="totalSlidesNum">06</span>
+        <span id="currentSlideNum">01</span> / <span id="totalSlidesNum">07</span>
       </div>
     </div>
   </header>
 
-  <!-- Riel de navegación lateral derecho (Scroll Indicator Dots) -->
-  <nav class="right-rail" id="rightRail" aria-label="Navegación de diapositivas">
-    <button class="rail-dot active" data-index="0" data-tooltip="00. Portada & Visión" aria-label="Ir a diapositiva 1"></button>
-    <button class="rail-dot" data-index="1" data-tooltip="01. El Doble Token" aria-label="Ir a diapositiva 2"></button>
-    <button class="rail-dot" data-index="2" data-tooltip="02. Automatización Agéntica" aria-label="Ir a diapositiva 3"></button>
-    <button class="rail-dot" data-index="3" data-tooltip="03. RWA: $16 Billones" aria-label="Ir a diapositiva 4"></button>
-    <button class="rail-dot" data-index="4" data-tooltip="04. Algoritmos y Pagos" aria-label="Ir a diapositiva 5"></button>
-    <button class="rail-dot" data-index="5" data-tooltip="05. El Líder Empresarial" aria-label="Ir a diapositiva 6"></button>
-  </nav>
+  
 
   <!-- Contenedor Principal con Scroll Snap Vertical -->
   <main class="presentation-container" id="container">
 
     <!-- ======================================================================
-         SLIDE 0: HERO & PORTADA
+         SLIDE 0: BIENVENIDA
          ====================================================================== -->
-    <section class="slide" id="slide-0" data-title="00. Portada e Introducción">
+    <section class="slide" id="slide-0" data-title="00. Bienvenida">
+      <div class="slide-content">
+        <div class="badge-ted">CONFERENCIA MAGISTRAL | GESTIÓN EMPRESARIAL</div>
+        
+        <h1 class="hero-title" style="font-size: var(--font-title); letter-spacing: normal;">
+          Bienvenidos
+        </h1>
+        
+        <p class="slide-subtitle" style="font-size: var(--font-subtitle); max-width: none;">
+          Dr. José Arturo Bustamante Lazcano
+        </p>
+        
+        <div style="margin: 2rem auto; max-width: 800px; text-align: center;">
+          <h2 style="font-size: var(--font-title); font-weight: 800; margin: 1rem 0;">Gestión Empresarial</h2>
+          <p style="font-size: var(--font-title); font-weight: 800; color: var(--text-muted); line-height: 1.6;">Inicio de presentación</p>
+        </div>
+
+        <div class="scroll-hint" id="scrollPrompt">
+          <div class="scroll-mouse"></div>
+          <span>Desliza para comenzar</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SLIDE 1: HERO & PORTADA
+         ====================================================================== -->
+    <section class="slide" id="slide-1" data-title="01. El Doble Motor Tecnológico">
       <div class="slide-content">
         <div class="badge-ted">CONFERENCIA MAGISTRAL | GESTIÓN EMPRESARIAL</div>
         
@@ -1051,17 +1049,13 @@
           <span>Plantea el dilema inicial a los estudiantes: la gestión moderna ya no compite con la automatización, sino que lidera las organizaciones que la dominan.</span>
         </div>
 
-        <div class="scroll-hint" id="scrollPrompt">
-          <div class="scroll-mouse"></div>
-          <span>Desliza para comenzar</span>
-        </div>
       </div>
     </section>
 
     <!-- ======================================================================
-         SLIDE 1: EL GANCHO — LA DOBLE NATURALEZA DEL TOKEN
+         SLIDE 2: EL GANCHO — LA DOBLE NATURALEZA DEL TOKEN
          ====================================================================== -->
-    <section class="slide" id="slide-1" data-title="01. El Doble Motor Tecnológico">
+    <section class="slide" id="slide-2" data-title="02. La Evolución Operativa">
       <div class="slide-content">
         <div class="badge-ted">1. DESMITIFICANDO LA PALABRA</div>
         
@@ -1114,9 +1108,9 @@
     </section>
 
     <!-- ======================================================================
-         SLIDE 2: AUTOMATIZACIÓN AGÉNTICA — DE RPA A AGENTES
+         SLIDE 3: AUTOMATIZACIÓN AGÉNTICA — DE RPA A AGENTES
          ====================================================================== -->
-    <section class="slide" id="slide-2" data-title="02. La Evolución Operativa">
+    <section class="slide" id="slide-3" data-title="03. Redefiniendo el Capital">
       <div class="slide-content">
         <div class="badge-ted">2. LA EVOLUCIÓN OPERATIVA</div>
         
@@ -1175,9 +1169,9 @@
     </section>
 
     <!-- ======================================================================
-         SLIDE 3: TOKENIZACIÓN RWA Y ACCESO AL CAPITAL
+         SLIDE 4: TOKENIZACIÓN RWA Y ACCESO AL CAPITAL
          ====================================================================== -->
-    <section class="slide" id="slide-3" data-title="03. Redefiniendo el Capital">
+    <section class="slide" id="slide-4" data-title="04. Pagos y Smart Contracts">
       <div class="slide-content">
         <div class="badge-ted">3. LIQUIDEZ Y FINANCIAMIENTO GLOBAL</div>
         
@@ -1201,7 +1195,7 @@
             <div class="inst-initiative">Fondo BUIDL</div>
             <div class="inst-desc">Fondo institucional tokenizado en red pública con dividendos diarios instantáneos.</div>
           </div>
-          
+
           <div class="inst-card">
             <div class="inst-name">JPMorgan <span>⚡</span></div>
             <div class="inst-initiative">Plataforma Kinexys</div>
@@ -1223,9 +1217,9 @@
     </section>
 
     <!-- ======================================================================
-         SLIDE 4: LA CONVERGENCIA — ALGORITMOS Y PAGOS PROGRAMABLES
+         SLIDE 5: LA CONVERGENCIA — ALGORITMOS Y PAGOS PROGRAMABLES
          ====================================================================== -->
-    <section class="slide" id="slide-4" data-title="04. Pagos y Smart Contracts">
+    <section class="slide" id="slide-5" data-title="05. Algoritmos y Pagos">
       <div class="slide-content">
         <div class="badge-ted">4. LA CONVERGENCIA SISTÉMICA</div>
         
@@ -1277,9 +1271,9 @@
     </section>
 
     <!-- ======================================================================
-         SLIDE 5: CONCLUSIÓN — EL ROL DEL GESTOR EMPRESARIAL
+         SLIDE 6: CONCLUSIÓN — EL ROL DEL GESTOR EMPRESARIAL
          ====================================================================== -->
-    <section class="slide" id="slide-5" data-title="05. El Gestor Empresarial">
+    <section class="slide" id="slide-6" data-title="06. El Gestor Empresarial">
       <div class="slide-content">
         <div class="badge-ted">5. TU PAPEL COMO LÍDER</div>
         
@@ -1326,7 +1320,54 @@
 
   </main>
 
- 
+  <!-- Panel de Control Flotante Inferior -->
+  <div class="floating-controls">
+    <button class="btn-ctrl btn-nav-arrow" id="prevBtn" title="Diapositiva Anterior (Flecha Arriba)" aria-label="Anterior">↑</button>
+    <button class="btn-ctrl btn-nav-arrow" id="nextBtn" title="Diapositiva Siguiente (Flecha Abajo / Espacio)" aria-label="Siguiente">↓</button>
+    <button class="btn-ctrl" id="modeToggle" title="Alternar tamaño de fuente y notas (Tecla P)">
+      <span id="modeIcon">👁️</span>
+      <span id="modeText">Modo Exposición</span>
+    </button>
+    <button class="btn-ctrl" id="fullscreenToggle" title="Alternar Pantalla Completa (Tecla F)">
+      <span>⛶</span> Pantalla Completa
+    </button>
+    <button class="btn-ctrl" id="shortcutsBtn" title="Ver Atajos de Teclado (Tecla ?)">
+      <span>⌨️</span>
+    </button>
+  </div>
+
+  <!-- Modal de Atajos de Teclado -->
+  <div class="shortcuts-modal" id="shortcutsModal">
+    <div class="modal-box">
+      <button class="btn-close-modal" id="closeModalBtn" aria-label="Cerrar modal">&times;</button>
+      <h3>Atajos de Teclado <span style="font-size: 0.8rem; color: var(--accent-ted);">TEDx Nav</span></h3>
+      
+      <div class="shortcut-row">
+        <span>Siguiente diapositiva</span>
+        <div><kbd>↓</kbd> o <kbd>Espacio</kbd></div>
+      </div>
+      <div class="shortcut-row">
+        <span>Diapositiva anterior</span>
+        <div><kbd>↑</kbd> o <kbd>Shift</kbd> + <kbd>Espacio</kbd></div>
+      </div>
+      <div class="shortcut-row">
+        <span>Modo Exposición / Lectura</span>
+        <div><kbd>P</kbd></div>
+      </div>
+      <div class="shortcut-row">
+        <span>Pantalla Completa</span>
+        <div><kbd>F</kbd></div>
+      </div>
+      <div class="shortcut-row">
+        <span>Ir a Inicio / Fin</span>
+        <div><kbd>Inicio</kbd> / <kbd>Fin</kbd></div>
+      </div>
+      <div class="shortcut-row">
+        <span>Ver esta ayuda</span>
+        <div><kbd>?</kbd></div>
+      </div>
+    </div>
+  </div>
 
   <!-- ==========================================================================
        LÓGICA JAVASCRIPT MONOLÍTICA
@@ -1340,16 +1381,16 @@
     const headerTopicText = document.getElementById('headerTopicText');
     const progressBar = document.getElementById('progressBar');
     const dots = document.querySelectorAll('.rail-dot');
-    
+
     const modeToggle = document.getElementById('modeToggle');
     const modeIcon = document.getElementById('modeIcon');
     const modeText = document.getElementById('modeText');
     const fullscreenToggle = document.getElementById('fullscreenToggle');
-    
+
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
     const scrollPrompt = document.getElementById('scrollPrompt');
-    
+
     const shortcutsBtn = document.getElementById('shortcutsBtn');
     const shortcutsModal = document.getElementById('shortcutsModal');
     const closeModalBtn = document.getElementById('closeModalBtn');
