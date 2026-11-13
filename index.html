@@ -220,6 +220,36 @@
       line-height: 1.65;
       letter-spacing: -.025em;
     }
+    .quote-centered {
+      max-width: 900px;
+      margin: 0 auto 44px;
+      border: 0;
+      background: transparent;
+      text-align: center;
+      font-size: clamp(1.45rem, 3vw, 2.25rem);
+      font-weight: 650;
+      line-height: 1.45;
+    }
+    .quote-centered cite {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: .9rem;
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: .01em;
+    }
+    .quote-centered cite img {
+      width: 72px;
+      height: 72px;
+      border: 2px solid var(--paper);
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, .12);
+    }
     .quote small { display: block; margin-top: 10px; color: var(--muted); font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 
     .stats {
@@ -313,7 +343,7 @@
       text-align: center;
     }
     .closing h2 { max-width: 850px; margin: 0 auto 28px; }
-    .closing .quote { max-width: 800px; margin: 38px auto 0; border-left: 0; border-top: 3px solid var(--accent); text-align: left; }
+    .closing .quote:not(.quote-centered) { max-width: 800px; margin: 38px auto 0; border-left: 0; border-top: 3px solid var(--accent); text-align: left; }
     .footer { padding: 24px; border-top: 1px solid var(--line); color: var(--muted); text-align: center; font-size: .75rem; }
 
     .section-nav {
@@ -478,6 +508,10 @@
           <div><span class="section-number">02 / EL PANORAMA</span><h2>La automatización avanza a distintas velocidades</h2></div>
           <p class="section-intro">En México conviven sectores con procesos digitales avanzados y empresas que apenas comienzan a explorar cómo automatizar.</p>
         </div>
+        <blockquote class="quote quote-centered reveal">
+          “Cada organización, sin importar su tamaño o sector, debe transformar su capacidad de procesar datos en automatización real si quiere seguir siendo competitiva.”
+          <cite><img src="Staya Nadella.jpg" alt="" width="72" height="72" loading="lazy" decoding="async"><span>Satya Nadella (CEO de Microsoft)</span></cite>
+        </blockquote>
         <div class="stats">
           <article class="stat reveal"><strong>43%</strong><span>de empresas con más de 100 trabajadores en sectores clave utilizan o planean implementar automatización, según las cifras reunidas para esta conferencia.</span></article>
           <article class="stat reveal"><strong>75%</strong><span>de las PyMEs reconoce la automatización como una prioridad, aunque muchas siguen en etapas iniciales o exploratorias.</span></article>
@@ -522,6 +556,10 @@
           <div><span class="section-number">04 / IA AGÉNTICA</span><h2>De seguir reglas a trabajar con contexto</h2></div>
           <p class="section-intro">Los agentes de IA amplían la automatización tradicional: pueden interpretar instrucciones, procesar información variada y ejecutar tareas conectadas a sistemas empresariales.</p>
         </div>
+        <blockquote class="quote quote-centered reveal">
+          “La fábrica del futuro ya no produce únicamente bienes físicos; produce inteligencia medida en tokens de procesamiento.”
+          <cite><img src="Jensen Huang.jpg" alt="" width="72" height="72" loading="lazy" decoding="async"><span>Jensen Huang (exCEO de NVIDIA)</span></cite>
+        </blockquote>
         <div class="card-grid">
           <article class="card reveal"><span class="card-index">01 / COMPRENDER</span><h3>Leer información no estructurada</h3><p>Procesar facturas con distintos formatos, contratos, correos y solicitudes de clientes.</p></article>
           <article class="card reveal"><span class="card-index">02 / CONECTAR</span><h3>Interactuar con sistemas</h3><p>Consultar información y apoyar flujos de trabajo en ERPs, CRMs y bases de datos.</p></article>
@@ -543,6 +581,10 @@
           <div><span class="section-number">05 / ECONOMÍA DE TOKENS</span><h2>Una palabra, dos dimensiones de negocio</h2></div>
           <p class="section-intro">En inteligencia artificial, un token mide consumo de procesamiento. En activos del mundo real, representa digitalmente derechos vinculados a un activo.</p>
         </div>
+        <blockquote class="quote quote-centered reveal">
+          “El verdadero salto económico no lo darán las empresas que usen IA para hacer lo mismo más rápido, sino aquellas que rediseñen sus modelos de negocio desde cero.”
+          <cite><img src="Sam Altman.jpg" alt="" width="72" height="72" loading="lazy" decoding="async"><span>Sam Altman (CEO de OpenAI)</span></cite>
+        </blockquote>
         <div class="token-grid">
           <article class="token-card reveal">
             <span class="token-kicker">Consumo operativo · Inteligencia artificial</span>
@@ -569,6 +611,10 @@
           <div><span class="section-number">06 / RWA EN MÉXICO</span><h2>La tecnología no sustituye el respaldo jurídico</h2></div>
           <p class="section-intro">La relación entre un token y el activo que representa depende de los derechos, contratos y vehículos legales que sostienen la operación.</p>
         </div>
+        <blockquote class="quote quote-centered reveal">
+          “Podemos simular, predecir y automatizar toda la operación de un negocio mediante datos, pero las reglas del juego, la propiedad de los activos y la responsabilidad legal siguen exigiendo el rigor del derecho tradicional.”
+          <cite><img src="Jensen Huang.jpg" alt="" width="72" height="72" loading="lazy" decoding="async"><span>Jensen Huang (NVIDIA)</span></cite>
+        </blockquote>
         <div class="legal-layout">
           <aside class="legal-callout reveal">
             <h3>El token no se explica por sí solo</h3>
@@ -590,6 +636,10 @@
         <p class="eyebrow reveal">07 / LA BRÚJULA DEL IGE</p>
         <h2 class="reveal">Liderar la transformación con criterio humano y rigor estratégico.</h2>
         <blockquote class="quote reveal">“Los tokens y la automatización no están diseñados para eliminar la gestión humana, sino para erradicar la burocracia y permitir que los ingenieros en gestión empresarial lideren la transformación con visión sistémica, eficiencia financiera y rigor estratégico.”</blockquote>
+        <blockquote class="quote quote-centered reveal">
+          “A medida que los sistemas de IA adquieren mayor autonomía para ejecutar flujos corporativos, la gobernanza, el principio de mínimo privilegio y la supervisión humana se vuelven innegociables.”
+          <cite><img src="dario amodei.jpg" alt="" width="72" height="72" loading="lazy" decoding="async"><span>Dario Amodei (CEO de Anthropic)</span></cite>
+        </blockquote>
       </div>
     </section>
   </main>
