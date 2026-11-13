@@ -1,0 +1,71 @@
+Un Ingeniero en Gestión Empresarial egresado del Tecnológico Nacional de México (TecNM) es un profesional con una visión sistémica y estratégica, capacitado para crear, dirigir, innovar y transformar organizaciones
+
+Diseña e implementa modelos de negocio
+Optimiza procesos y cadena de suministro
+Dirige proyectos de innovación y tecnología
+Formula y evalúa proyectos de inversión
+Lidera equipos multidisciplinarios
+Desarrolla estrategias comerciales y de marketing
+
+Evolución del rol: De bombero operativo a estratega e innovador
+
+1. ¿Cómo han adoptado las empresas en México la automatización de procesos?
+El ecosistema empresarial mexicano se encuentra en un proceso de adopción mixta y polarizada
+
+De acuerdo con datos recientes de Banco de México, más del 43% de las empresas de más de 100 trabajadores en sectores como manufactura avanzada, automotriz, alimentos y servicios financieros ya utilizan o planean implementar automatización de procesos y tareas.
+
+El factor regulatorio como catalizador: A diferencia de otros países, México cuenta con una ventaja estructural forzada: la obligatoriedad de la facturación electrónica (CFDI) ante el SAT.
+
+PyMEs (En transición y con desafíos): Aunque más del 75% de las pequeñas y medianas empresas reconocen que automatizar es una prioridad absoluta para sobrevivir, gran parte de ellas se encuentra en una etapa exploratoria o inicial.
+
+Ya superamos la fase en donde la computadora era solo una máquina de escribir digital.
+
+Software de automatización más popular en México
+SAP Business One / Odoo
+Microsoft Dynamics 365
+Automatización No-Code / Low-Code (Muy adoptada por PyMEs y startups)
+Zapier y Make
+Microsoft Power Automate
+
+la automatización rara vez elimina la profesión completa de la noche a la mañana; lo que hace es automatizar tareas repetitivas, estructuradas y basadas en reglas fijas
+
+Actualmente, el ecosistema global y corporativo vive una transición acelerada hacia las llamadas "Empresas Frontera" (Frontier Firms)
+
+A diferencia de la automatización clásica basada en macros o bots sencillos de RPA, la IA actual se encarga de:
+
+Procesar documentos no estructurados (facturas con diseños variados, contratos legales, correos con quejas de clientes).
+
+Interactuar en lenguaje natural con bases de datos corporativas, ERPs y CRMs.
+
+Tomar decisiones complejas basadas en contexto y no solo en reglas fijas de "sí/no".
+
+Áreas de oportunidad
+Optimización del tiempo cognitivo humano
+Hiper-personalización de servicios y operaciones
+Interconectividad total de sistemas heredados (Legacy)
+
+El token a nueva unidad monetaria y de consumo en la era digital. Hoy en día, los tokens se dividen en dos grandes mundos que cruzan la tecnología y los negocios: los tokens de Inteligencia Artificial y los tokens de Activos del Mundo Real (RWA).
+Los tokens son ingeniería financiera y operativa.
+
+
+Tokens de Inteligencia Artificial (El nuevo costo operativo)
+El token como insumo y costo: Así como las fábricas tradicionales miden su consumo en kilovatios-hora de electricidad o litros de combustible, las empresas modernas consumen tokens de IA. Cada correo automatizado, cada factura procesada por un agente inteligente y cada análisis predictivo cuesta una cantidad determinada de tokens.
+
+¿Cuánto cuesta en tokens automatizar un proceso versus el salario-hora que invertía un empleado humano?
+
+Tokens de Activos del Mundo Real o RWA (Real World Assets)
+¿Qué se puede tokenizar en un negocio? Prácticamente cualquier activo de capital intensivo:
+
+Inventarios en tránsito o maquinaria industrial.
+
+Inmuebles, bodegas o terrenos de la empresa.
+
+Propiedad intelectual (patentes, marcas o desarrollos de software).
+
+No se trata de especulación financiera, sino de ingeniería financiera corporativa avanzada, la cual permite fraccionar capital, optimizar la liquidez de activos fijos y abrir nuevas fuentes de fondeo sin pasar exclusivamente por los canales bancarios tradicionales.
+
+La Ley de Economía Digital y Medios de Pago: Facilita y da certeza jurídica a la contratación electrónica, el reconocimiento de documentos digitales y la adopción de la identidad digital (como la CURP Digital y el Expediente Digital Ciudadano).
+
+Ley del Mercado de Valores (LMV), la Ley para Regular las Instituciones de Tecnología Financiera (Ley Fintech) o considerarse una actividad vulnerable ante la ley antilavado (LFPIORPI).
+
+los RWA corporativos en México no operan como criptomonedas libres, sino como valores representados digitalmente (VNTs - Valores Negociables Tokenizados) respaldados por contratos civiles y mercantiles tradicionales.
